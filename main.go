@@ -203,7 +203,7 @@ func NewClient(bucketName string) *cos.Client {
 
 func init() {
 	// 加载配置
-	bts, err := ioutil.ReadFile("./conf.json")
+	bts, err := ioutil.ReadFile("/Users/nirvana/common/conf/conf.json")
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(-1)

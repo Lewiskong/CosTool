@@ -28,6 +28,15 @@
 
   ```
   
+  We could add some alias into bash profile to simplify the use of it.
+  ```
+	alias cput='cos -cmd input -key'
+    alias cget='cos -cmd output -key'
+    alias clist='cos -cmd list'
+    alias cdel='cos -cmd delete -key'
+  ```
+  
+  
 ## 个人用于
   * 图片图床(CDN)
   * 常用字符/密码存储（macos可结合pbcopy）
