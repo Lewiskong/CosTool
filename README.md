@@ -30,7 +30,7 @@
   
   We could add some alias into bash profile to simplify the use of it.
   ```
-	alias cput='cos -cmd input -key'
+    alias cput='cos -cmd input -key'
     alias cget='cos -cmd output -key'
     alias clist='cos -cmd list'
     alias cdel='cos -cmd delete -key'
